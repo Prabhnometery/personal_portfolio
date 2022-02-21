@@ -17,6 +17,8 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import golang from '../assets/golang.png';
+import docker from '../assets/docker.png';
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -53,6 +55,8 @@ export default {
   react,
   redux,
   sass,
+  golang,
+  docker,
   typescript,
   vue,
   about01,
