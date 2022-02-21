@@ -17,6 +17,8 @@
   
     display: flex;
     flex-direction: row;
+    
+    
   }
   
   .app__flex {
@@ -166,7 +168,7 @@
       transition: background-color 0.2s ease-in-out;
   
       &:hover {
-        background-color: var(--secondary-color);
+        background-color: #FF48A5;
       }
   
       @media screen and (min-width: 2000px) {
