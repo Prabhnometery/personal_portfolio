@@ -39,7 +39,7 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My Creative <span>Portfolio</span> Section
+        <span>🚀 Projects</span>
       </h2>
 
       <div className="app__work-filter">
@@ -122,8 +122,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(
-  MotionWrap(Work, `app__works`),
-  "work",
-  "app__primarybg"
-);
+export default AppWrap(MotionWrap(Work, `app__works`), "work", "app__blackbg");

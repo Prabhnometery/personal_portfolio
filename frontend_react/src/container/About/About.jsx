@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Design</span> <br />
-        means <span>Good Business</span>
+        <span style={{ color: "white"}}>📝 About </span> <span>Me</span> <br />
+        {/* means <span>Good Business</span> */}
       </h2>
 
       <div className="app__profiles">
@@ -49,5 +49,5 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, `app__about`),
   "about",
-  "app__whilebg"
+  "app__blackbg"
 );
