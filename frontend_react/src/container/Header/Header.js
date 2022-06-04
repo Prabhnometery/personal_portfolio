@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";
+import {} from "three-dots"
 
 const scaleVariants = {
   whileInView: {
@@ -30,6 +31,7 @@ const Header = () => {
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Hello, I am </p>
               <h1 className="head-text">Prabh</h1>
+              <div style={{ marginLeft: "50px" }} className="dot-rolling"></div>
             </div>
           </div>
           <div className="tag-cmp app__flex">
@@ -60,7 +62,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.python, images.react, images.redux, images.typescript, images.golang, images.docker].map((circle, index) => (
+        {[images.autodesk, images.prifina, images.cisco].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="circle" />
           </div>
