@@ -23,6 +23,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+      <a href="https://drive.google.com/file/d/1C2t63DPrwXZE1UIWXzyxRDxEW3z3VoPv/view?usp=sharing"><button class="glow-on-hover" type="button">DOWNLOAD RESUME 📥</button></a>
 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
