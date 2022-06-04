@@ -40,7 +40,9 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text"> ☕ Take A Coffee & Chat With Me</h2>
+      <h2 style={{ display: "flex", flexDirection: "row", alignItems: "baseline"}} className="head-text"> ☕ Take A Coffee & Chat With Me
+      <div class="blob pink"></div>
+      </h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card">
