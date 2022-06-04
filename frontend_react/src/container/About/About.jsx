@@ -18,9 +18,9 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">
-        <span style={{ color: "white"}}>📝 About </span> <span>Me</span> <br />
-        {/* means <span>Good Business</span> */}
+      <h2 style={{ display: "flex", flexDirection: "row", alignItems: "baseline"}} className="head-text">
+        <span>📝 About <span style={{ color: "white"}}> Me </span> </span> <br />
+        <div class="blob pink"></div> 
       </h2>
 
       <div className="app__profiles">
