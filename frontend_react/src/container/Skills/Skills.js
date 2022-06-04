@@ -25,7 +25,9 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text"> 🛠 Skills & Work Experiences</h2>
+      <h2 style={{ display: "flex", flexDirection: "row", alignItems: "baseline"}} className="head-text"> 🛠 Skills & Work Experiences
+      <div class="blob pink"></div>
+      </h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
