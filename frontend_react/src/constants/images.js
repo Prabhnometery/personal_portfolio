@@ -22,6 +22,11 @@ import docker from '../assets/docker.png';
 import kubernetes from '../assets/kubernetes.png'
 import angular from '../assets/angular.png'
 import selenium from '../assets/selenium.png'
+import autodesk from '../assets/autodesk.png'
+import prifina from '../assets/prifina.png'
+import cisco from '../assets/cisco.png'
+import software from '../assets/software.png'
+import waterloo from '../assets/waterloo.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -63,6 +68,11 @@ export default {
   kubernetes,
   angular,
   selenium,
+  autodesk,
+  prifina,
+  cisco,
+  software,
+  waterloo,
   typescript,
   vue,
   about01,
