@@ -38,8 +38,9 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">
+      <h2 style={{ display: "flex", flexDirection: "row", alignItems: "baseline"}} className="head-text">
         <span>🚀 Projects</span>
+        <div class="blob pink"></div>
       </h2>
 
       <div className="app__work-filter">
